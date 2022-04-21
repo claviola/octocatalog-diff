@@ -25,17 +25,17 @@ from a local development environment or in CI.
 EOF
 
   s.add_runtime_dependency 'diffy', '>= 3.1.0'
-  s.add_runtime_dependency 'httparty', '>= 0.11.0'
+  s.add_runtime_dependency 'httparty', '>= 0.20.0'
   s.add_runtime_dependency 'hashdiff', '>= 0.3.0'
   s.add_runtime_dependency 'parallel', '>= 1.12.0'
   s.add_runtime_dependency 'rugged', '>= 0.25.0b2'
 
   s.add_development_dependency 'rspec', '~> 3.4.0'
-  s.add_development_dependency 'rake', '12.3.1'
+  s.add_development_dependency 'rake', '12.3.3'
   s.add_development_dependency 'parallel_tests', '2.7.1'
   s.add_development_dependency 'rspec-retry', '0.5.0'
 
-  s.add_development_dependency 'rubocop', '= 0.48.1'
+  s.add_development_dependency 'rubocop', '= 0.49.0'
 
   s.add_development_dependency 'simplecov', '~> 0.14.1'
   s.add_development_dependency 'simplecov-erb', '~> 0.1.1'
